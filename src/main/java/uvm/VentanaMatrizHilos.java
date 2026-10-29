@@ -271,6 +271,8 @@ private void terminarSerpiente() {
 
     if (serpiente != null && serpiente.isAlive()) {
         serpiente.terminar();
+
+        btIniciarS.setText("Continuar");
     }
 }
 
